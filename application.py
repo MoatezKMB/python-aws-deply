@@ -1,10 +1,10 @@
-"""from flask import Flask
+'''from flask import Flask
 application= Flask(__name__)
 @application.route('/')
 
 def hello_mouatez():
     return 'hello KARABAGHLI Mouatez Bellah'
- """
+''' 
 from flask import Flask, render_template, request
 app = Flask(__name__)
 @app.route("/", methods=['GET', 'POST'])
